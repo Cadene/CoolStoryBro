@@ -1,0 +1,39 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas : Créer un nouveau livre 
+
+Description :  L'auteur crée un nouveau livre
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- aucune
+
+Pré-conditions : 
+- aucune
+
+Scénario Nominal:
+1. L'auteur saisie le nom du livre
+2. Le systeme vérifie qu'un livre existant ne porte pas le même nom
+3. Le systeme enregistre un nouveau livre portant le nom
+
+Post-conditions :
+- Un livre portant le nom défini par l'auteur existe dans la liste des livres
+
+Exigences non-fonctionnelles :
+- aucune
+
+Alternatives :
+- SN2 : un livre existant porte le même nom, message d'erreur, retour en SN1
+
+Exceptions :
+- SN1 : l'auteur annule la saisie du livre, fin du cas
+
+

@@ -1,0 +1,54 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas :  Creer une section
+
+Description :  creer une section du livre
+
+Acteurs : 
+- Auteur
+- 
+
+
+Séquencement
+
+Hypohtèses :
+- (généralement vide)
+- 
+
+Pré-conditions : 
+- Le livre courant est crée
+
+
+Scénario Nominal:
+1. L'auteur saisie le nom la section.
+2. Le systeme verifie que le nom de la section n'existe pas déjà
+3. le systeme crée la section
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+
+Post-conditions :
+- La section est créée.
+- 
+
+Exigences non-fonctionnelles :
+- (ex: le systeme répond en moins de X secondes)
+- 
+
+Alternatives :
+-A1: SN2 : le nom de la section existe déjà 
+1)Le systeme redemande un nouveau nom
+2) L auteur saisie un nouveau nom de section
+
+Exceptions :
+
+-E1: Annulation
+
+

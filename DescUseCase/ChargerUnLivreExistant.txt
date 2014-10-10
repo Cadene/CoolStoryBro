@@ -1,0 +1,38 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas : Charger un livre existant
+
+Description :  L'auteur charge un livre existant
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- aucune
+
+Pré-conditions : 
+- La liste des livres existants est vraie
+
+Scénario Nominal:
+1. L'auteur sélectionne un livre dans la liste des livres existants
+2. Le systeme charge le livre sélectionné
+
+Post-conditions :
+- Le livre sélectionné est chargé et affiché à l'écran.
+
+Exigences non-fonctionnelles :
+- aucune
+
+Alternatives :
+- aucune
+
+Exceptions :
+- SN1 : l'auteur annule la selection du livre, fin du cas
+
+

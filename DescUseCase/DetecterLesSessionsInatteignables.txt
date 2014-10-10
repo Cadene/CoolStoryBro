@@ -1,0 +1,39 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas : Détecter les sections inatteignables
+
+Description :  A partir des graphes des enchainements, affiche les sections inatteignables.
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- aucune
+
+Pré-conditions : 
+- Le cas "Visualiser le graphe des enchainements"
+
+Scénario Nominal:
+1. L'auteur valide la détection des sessions inatteignables
+2. Le système détecte les sections inatteignables du graphes des enchainements
+3. Le système affiche les sections inatteignables
+
+Post-conditions :
+- Les sections inatteignables sont bien affichées
+
+Exigences non-fonctionnelles :
+- aucune
+
+Alternatives :
+- aucune
+
+Exceptions :
+- aucune
+
+

@@ -1,0 +1,54 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas :  Générer le livre en format HTML.
+
+Description : Permet de générer un exemplaire du livre déployable sur internet
+
+Acteurs : 
+- L'auteur
+- 
+
+
+Séquencement
+
+Hypohtèses :
+- (généralement vide)
+- 
+
+Pré-conditions : 
+- L'auteur a créé ou modifier un livre
+- 
+
+Scénario Nominal:
+1. L'auteur demande la génération visualisable en ligne  du livre en cours de modifications.
+2. Le systeme génère une numérotation aléatoire des sections qui capture les enchainements.
+3. Le système renvoi un fichier HTML consultable en ligne.
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+
+Post-conditions :
+- Le livre en cours d'utilisation est disponible en version consultable en ligne
+- 
+
+Exigences non-fonctionnelles :
+- (ex: le systeme répond en moins de X secondes)
+- 
+
+Alternatives :
+- SN5 : faute de saisie, retour en SN3 
+- 
+
+Exceptions :
+- SN1 : L'auteur annule sa commande
+- SN1-10 : l'acteur peut quitter à n'importe quel moment
+- 
+
+

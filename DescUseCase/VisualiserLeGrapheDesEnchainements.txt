@@ -1,0 +1,40 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas : Visualiser le graphe des enchainements
+
+Description :  L'auteur visualise le graphe des enchainements
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- aucune
+
+Pré-conditions : 
+- Un livre a été chargé ou créé
+- Une section au moins a été créée
+
+Scénario Nominal:
+1. L'auteur sélectionne une section et saisie un nombre d'enchainements 
+2. Le système génère le graphe des enchainements
+3. Le systeme affiche le graphe des enchainements
+
+Post-conditions :
+- Le graphe des enchainements est bien affiché
+
+Exigences non-fonctionnelles :
+- aucune
+
+Alternatives :
+- aucune
+
+Exceptions :
+- aucune
+
+
