@@ -30,10 +30,9 @@ Exigences non-fonctionnelles :
 - aucune
 
 Alternatives :
-- 
+- SN1 : le ficher sélectionné n'est pas un livre
 
 Exceptions :
 - SN1 : l'auteur annule la selection du livre, fin du cas
-- SN1 : le ficher sélectionné n'est pas un livre, fin du cas
 
 
