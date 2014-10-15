@@ -1061,7 +1061,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J_RDgFB2EeSbeoW-Bf3TeA" value="1"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_TObrkEsBEeSFVfyLk87hcg" name="Enchainement">
+    <packagedElement xmi:type="uml:Class" xmi:id="_TObrkEsBEeSFVfyLk87hcg" name="Echainement">
       <ownedAttribute xmi:id="_e5BoAFBzEeSbeoW-Bf3TeA" name="objet" visibility="private" type="_Uv5eUEsBEeSFVfyLk87hcg" association="_e4_LwFBzEeSbeoW-Bf3TeA">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e5CPEVBzEeSbeoW-Bf3TeA" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e5CPEFBzEeSbeoW-Bf3TeA" value="1"/>
@@ -1078,8 +1078,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1MmiUFB0EeSbeoW-Bf3TeA" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1Ml7QFB0EeSbeoW-Bf3TeA"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_AEy9UFR6EeSBnYFMOTyD9w" name="nom" visibility="private"/>
-      <ownedAttribute xmi:id="_BHSVEFR6EeSBnYFMOTyD9w" name="texte" visibility="private"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Uv5eUEsBEeSFVfyLk87hcg" name="Objet">
       <ownedAttribute xmi:id="_SPc4YFBzEeSbeoW-Bf3TeA" name="nom" visibility="private"/>

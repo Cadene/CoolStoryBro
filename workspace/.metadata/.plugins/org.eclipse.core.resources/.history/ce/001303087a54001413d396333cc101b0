@@ -1078,8 +1078,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1MmiUFB0EeSbeoW-Bf3TeA" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1Ml7QFB0EeSbeoW-Bf3TeA"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_AEy9UFR6EeSBnYFMOTyD9w" name="nom" visibility="private"/>
-      <ownedAttribute xmi:id="_BHSVEFR6EeSBnYFMOTyD9w" name="texte" visibility="private"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Uv5eUEsBEeSFVfyLk87hcg" name="Objet">
       <ownedAttribute xmi:id="_SPc4YFBzEeSbeoW-Bf3TeA" name="nom" visibility="private"/>
