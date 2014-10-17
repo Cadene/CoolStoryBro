@@ -23,7 +23,7 @@ Pré-conditions :
 - 
 
 Scénario Nominal:
-1. L'auteur demande la génération visualisable en ligne du livre en cours de modifications.
+1. L'auteur demande la génération visualisable en ligne  du livre en cours de modifications.
 2. Le systeme génère une numérotation aléatoire des sections qui capture les enchainements.
 3. Le système renvoi un fichier HTML consultable en ligne.
 4. 
