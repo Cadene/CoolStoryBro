@@ -1,0 +1,51 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas :  Modifier liste objets
+
+Description :  L'auteur modifier une liste d'objets
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypothèses :
+- aucune
+
+Pré-conditions : 
+- Un livre est en cours de modification
+
+Scénario Nominal:
+1. L'auteur saisie une liste d'objets
+2. Le système vérifie que cette liste ne contient pas de doublons
+3. 
+4. 
+5. 
+
+Post-conditions :
+- La liste de tout les objet de l'aventure existe
+- 
+
+Exigences non-fonctionnelles :
+- (ex: le systeme répond en moins de X secondes)
+- 
+
+Alternatives :
+- SN4 : La liste contient des doublons
+1)Le systeme efface les doublons
+2)Le Systeme demande si l'auteur veut crée de nouveau objet
+3)L'auteur accepte et crée de nouveau objet ajouter a la liste ou 
+refuse est rend la liste.
+4)retour a SN4-1)
+
+Exceptions :
+- Annulation
+- SN2 : utilisateur non enregistré -> fin
+- SN1-10 : l'acteur peut quitter à n'importe quel moment
+- 
+
+

@@ -9,20 +9,20 @@ Description :  Creer une section du livre
 
 Acteurs : 
 - Auteur
-- 
+ 
 
 
 Séquencement
 
 Hypohtèses :
-- aucune
+- Aucune
 
 Pré-conditions : 
-- Le livre courant est créé
+- Un livre est en cours de modification
 
 Scénario Nominal:
-1. L'auteur saisie le nom la section
-2. Le systeme verifie que le nom de la section n'existe pas déjà
+1. L'auteur saisie le nom de la section
+2. Le systeme verifie que le nom de la section n'existe pas encore
 3. Le systeme crée la section
 
 Post-conditions :

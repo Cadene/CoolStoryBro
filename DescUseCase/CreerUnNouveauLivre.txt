@@ -22,7 +22,7 @@ Pré-conditions :
 Scénario Nominal:
 1. L'auteur saisie le nom du livre
 2. Le systeme vérifie qu'un livre existant ne porte pas le même nom
-3. Le systeme enregistre un nouveau livre portant le nom
+3. Le systeme enregistre un nouveau livre portant ce nom
 
 Post-conditions :
 - Un livre portant le nom défini par l'auteur existe dans la liste des livres
