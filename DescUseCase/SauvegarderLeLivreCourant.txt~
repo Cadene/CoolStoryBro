@@ -5,7 +5,7 @@ Identificateur
 
 Nom du cas : Sauvegarder le livre courant
 
-Description :  L'auteur sauvegarde le livre courant
+Description : Sauvegarder le livre courant
 
 Acteurs : 
 - Auteur
@@ -20,19 +20,19 @@ Pré-conditions :
 - Un livre a été chargé ou créé
 
 Scénario Nominal:
-1. L'auteur valide la sauvegarde du livre courant
+1. L'auteur clique sur le bouton de sauvegarde
 2. Le systeme sauvegarde le livre courant
 
 Post-conditions :
-- Le livre courant est bien sauvegardé
+- Le livre courant est sauvegardé
 
 Exigences non-fonctionnelles :
-- aucune
+- Aucune
 
 Alternatives :
-- aucune
+- Aucune
 
 Exceptions :
-- aucune
+- Aucune
 
 

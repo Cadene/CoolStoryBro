@@ -25,7 +25,7 @@ Pré-conditions :
 Scénario Nominal:
 1. L'auteur indique un emplacement de destination
 2. Le système génère une numérotation aléatoire des sections qui capture les enchainements
-3. Le système renvoi un fichier pdf imprimable
+3. Le système génère un fichier pdf imprimable
 
 Post-conditions :
 - Le livre en cours d'utilisation est disponible en version imprimable

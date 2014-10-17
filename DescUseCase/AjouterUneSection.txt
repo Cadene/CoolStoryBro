@@ -3,9 +3,9 @@ Description du cas
 
 Identificateur
 
-Nom du cas :  Creer une section
+Nom du cas :  Ajouter une section
 
-Description :  Creer une section du livre
+Description :  Ajouter une section au livre
 
 Acteurs : 
 - Auteur

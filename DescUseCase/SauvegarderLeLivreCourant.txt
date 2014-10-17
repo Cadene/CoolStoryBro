@@ -21,7 +21,7 @@ Pré-conditions :
 
 Scénario Nominal:
 1. L'auteur clique sur le bouton de sauvegarde
-2. Le systeme sauvegarde le livre courant
+2. Le systeme sauvegarde le livre courant et tout ses composants
 
 Post-conditions :
 - Le livre courant est sauvegardé

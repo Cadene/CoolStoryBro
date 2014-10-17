@@ -25,7 +25,7 @@ Pré-conditions :
 Scénario Nominal:
 1. L'auteur précise l'emplacement du fichier
 2. Le systeme génère une numérotation aléatoire des sections qui capture les enchainements.
-3. Le système renvoi un fichier HTML consultable en ligne.
+3. Le système génère un fichier HTML consultable en ligne.
 
 Post-conditions :
 - Le livre en cours d'utilisation est disponible en version consultable en ligne

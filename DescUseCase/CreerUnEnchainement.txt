@@ -1,0 +1,38 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas : Créer un nouvel enchainement
+
+Description :  L'auteur crée un nouvel enchainement
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- aucune
+
+Pré-conditions : 
+- aucune
+
+Scénario Nominal:
+1. L'auteur selectionne deux sections entre lesquelles ajouter un enchainement
+2. Le systeme ajoute la section à l'enchainement en cours de création
+ 
+
+Post-conditions :
+- Un enchainement a été crée entre les deux sections
+
+Exigences non-fonctionnelles :
+- aucune
+
+Alternatives :
+- SN2
+
+Exceptions :
+- SN1 : L'auteur annule la création de l'enchainement, retour en SN1  
+
