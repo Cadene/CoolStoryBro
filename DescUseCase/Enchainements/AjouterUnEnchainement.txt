@@ -3,7 +3,7 @@ Description du cas
 
 Identificateur
 
-Nom du cas : Créer un nouvel enchainement
+Nom du cas : Ajouter un enchainement
 
 Description :  L'auteur crée un nouvel enchainement
 
@@ -21,7 +21,9 @@ Pré-conditions :
 
 Scénario Nominal:
 1. L'auteur selectionne deux sections entre lesquelles ajouter un enchainement
-2. Le systeme à crée l'enchainement.
+2. Le système vérifie que la première section existe
+3. Le système vérifie que la seconde section existe
+4. Le systeme créer l'enchainement
  
 
 Post-conditions :

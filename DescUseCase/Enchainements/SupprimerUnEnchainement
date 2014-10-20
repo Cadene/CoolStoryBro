@@ -1,0 +1,38 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas : Supprimer un enchainement
+
+Description :  L'auteur supprime un enchainement existant
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- aucune
+
+Pré-conditions : 
+- aucune
+
+Scénario Nominal:
+1. L'auteur saisie le nom d'un enchainement
+2. Le système vérifie que cet enchainement existe
+3. Le système supprime cet enchainement
+
+ 
+Post-conditions :
+- L'enchainement indiqué n'existe plus dans la liste des enchainements 
+
+Exigences non-fonctionnelles :
+- aucune
+
+Alternatives :
+-
+
+Exceptions :
+- SN1 : L'auteur annule la suppression

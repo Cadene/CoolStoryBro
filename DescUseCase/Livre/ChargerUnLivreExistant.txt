@@ -21,7 +21,8 @@ Pré-conditions :
 
 Scénario Nominal:
 1. L'auteur donne le chemin d'accès vers un livre
-2. Le systeme charge le livre sélectionné
+2. Le systeme vérifie le format du livre à ce chemin
+3. Le systeme charge le livre sélectionné
 
 Post-conditions :
 - Le livre sélectionné est chargé et affiché à l'écran.
@@ -34,6 +35,6 @@ Alternatives :
 
 Exceptions :
 - SN1 : l'auteur annule la selection du livre, fin du cas
-- SN1 : le ficher sélectionné n'est pas un livre, fin du cas
+- SN2 : le ficher sélectionné n'est pas un livre, fin du cas
 
 
