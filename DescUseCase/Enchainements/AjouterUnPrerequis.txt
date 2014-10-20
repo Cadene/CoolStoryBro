@@ -21,12 +21,12 @@ Pré-conditions :
 
 Scénario Nominal:
 1. L'auteur selectionne un enchainement existant
-2. Le système affiche l'enchainement correspondant
-2. L'auteur selectionne un objet dans la liste d'objet
-3. Le système vérifie que l'objet n'appartient pas déjà à la liste des prérequis
-4. Le système ajoute l'objet à la liste des prérequis
-5. Le système confirme l'ajout de l'objet et propose à l'auteur d'en rajouter un autre
-6. L'auteur choisit de finir.
+2. Le système affiche l'enchainement correspondant et la liste des objets disponibles
+3. L'auteur selectionne un objet dans la liste d'objet
+4. Le système vérifie que l'objet n'appartient pas déjà à la liste des prérequis
+5. Le système ajoute l'objet à la liste des prérequis
+6. Le système confirme l'ajout de l'objet et propose à l'auteur d'en rajouter un autre
+7. L'auteur choisit de finir.
  
 
 Post-conditions :
@@ -36,9 +36,9 @@ Exigences non-fonctionnelles :
 - aucune
 
 Alternatives :
-- SN3 : L'objet existe déjà dans la liste des prérequis : retour en SN2
-- SN6 : L'auteur choisit d'ajouter un autre prérequis : retour en SN2
+- SN4 : L'objet existe déjà dans la liste des prérequis : retour en SN3
+- SN6 : L'auteur choisit d'ajouter un autre prérequis : retour en SN3
 
 Exceptions :
-- SN1 : L'auteur annule l'ajout de prérequis, retour en SN1  
+- SN1-3 : L'auteur annule l'ajout de prérequis
 
