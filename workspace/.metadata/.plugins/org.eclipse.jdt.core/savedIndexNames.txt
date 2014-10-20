@@ -1,1 +1,0 @@
-INDEX VERSION 1.126+/users/nfs/Etu3/3000693/Documents/Master/Semestre1/IL/Projet/workspace/.metadata/.plugins/org.eclipse.jdt.core

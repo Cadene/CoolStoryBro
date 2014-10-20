@@ -1,0 +1,41 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas : Modifier un enchainement
+
+Description :  L'auteur modifie un enchainement existant
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- aucune
+
+Pré-conditions : 
+- aucune
+
+Scénario Nominal:
+1. L'auteur selectionne un enchainement qu'il souhaite modifier
+2. Le systeme affiche cet enchainement
+3. L'auteur saisie le nouveau contenu de l'attribut
+4. Le systeme vérifie la saisie
+5. Le systeme enregistre les modifications
+ 
+
+Post-conditions :
+- Un enchainement avec les nouveaux attributs est enregistré à la place de l'ancien
+
+Exigences non-fonctionnelles :
+- aucune
+
+Alternatives :
+- SN4 : La saisie est incorrecte, retour en SN3 
+
+Exceptions :
+- SN1-3 : L'auteur annule la modification  
+
