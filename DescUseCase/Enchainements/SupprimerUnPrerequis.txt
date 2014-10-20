@@ -1,0 +1,41 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas :  Supprimer un prérequis
+
+Description :  Supprimer  un prérequis
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- aucune
+
+Pré-conditions : 
+- Un enchainement existe entre deux sections
+
+Scénario Nominal:
+1. L'auteur selectionne un enchainement existant
+2. L'auteur selectionne un objet dans la liste des prérequis
+3. Le système supprime l'objet de la liste des prérequis
+5. Le système confirme la suppression du prérequis et propose à l'auteur d'en supprimer un autre
+6. L'auteur choisit de finir.
+ 
+
+Post-conditions :
+- Un prérequis est ajouté pour l'enchainement
+
+Exigences non-fonctionnelles :
+- aucune
+
+Alternatives :
+- SN6 : L'auteur choisit de supprimer un autre prérequis : retour en SN2
+
+Exceptions :
+- SN1 : L'auteur annule l'ajout de prérequis, retour en SN1  
+

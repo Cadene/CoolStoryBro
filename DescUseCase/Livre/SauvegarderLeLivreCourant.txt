@@ -1,0 +1,38 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas : Sauvegarder le livre courant
+
+Description : Sauvegarder le livre courant
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- aucune
+
+Pré-conditions : 
+- Un livre a été chargé ou créé
+
+Scénario Nominal:
+1. L'auteur clique sur le bouton de sauvegarde
+2. Le systeme sauvegarde le livre courant et tout ses composants
+
+Post-conditions :
+- Le livre courant est sauvegardé
+
+Exigences non-fonctionnelles :
+- Aucune
+
+Alternatives :
+- Aucune
+
+Exceptions :
+- Aucune
+
+

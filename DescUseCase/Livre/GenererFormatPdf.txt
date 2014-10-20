@@ -1,0 +1,43 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas :  Générer le livre au format pdf
+
+Description :  Génere le livre en version imprimable
+
+Acteurs : 
+- Auteur
+- 
+
+
+Séquencement
+
+Hypohtèses :
+- (généralement vide)
+- 
+
+Pré-conditions : 
+- Un livre a été chargé ou créé
+- 
+
+Scénario Nominal:
+1. L'auteur indique un emplacement de destination
+2. Le système génère une numérotation aléatoire des sections qui capture les enchainements
+3. Le système génère un fichier pdf imprimable
+
+Post-conditions :
+- Le livre en cours d'utilisation est disponible en version imprimable
+
+Exigences non-fonctionnelles :
+- Aucune 
+
+Alternatives :
+- Aucune
+
+Exceptions :
+- SN-1:L'utilisateur annule la génération du livre
+- SN-2:Le livre en cours n'a qu'une seule page.
+
+

@@ -1,0 +1,40 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas :  Ajouter une section
+
+Description :  Ajouter une section au livre
+
+Acteurs : 
+- Auteur
+ 
+
+
+Séquencement
+
+Hypohtèses :
+- Aucune
+
+Pré-conditions : 
+- Un livre est en cours de modification
+
+Scénario Nominal:
+1. L'auteur saisie le nom de la section
+2. Le systeme verifie que le nom de la section n'existe pas encore
+3. Le systeme crée la section
+
+Post-conditions :
+- Il existe une section de ce nom
+
+Exigences non-fonctionnelles :
+-
+
+Alternatives :
+- SN2 : le nom de la section existe déjà, retour à SN1
+
+Exceptions :
+- SN1 : l'auteur annule la saisie, fin du cas
+
+
