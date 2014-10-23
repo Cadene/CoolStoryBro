@@ -1,0 +1,23 @@
+Test de validation
+
+Identifiant : TV2
+
+Titre : generer format HTML
+
+Contexte:
+-L'auteur a crée un livre
+-il existe au moins un enchainement (donc 2 section au moins) 
+
+entrée: 
+-nom/du/chemin
+
+Scénario: 
+-l'utilisateur précise l'emplacement du fichier
+-l'utilisateur annule
+
+Resultat: 
+-Le systeme n'a pas crée de livre en format html au niveau du dossier donné par "nom/du/chemin"
+
+Moyen de retour: 
+-l'auteur vérifie si au niveau du chemins d'accés du dossier, il n'y a pas de
+fichier du nom du livre en .html .

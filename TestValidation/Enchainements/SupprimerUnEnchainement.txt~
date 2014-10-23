@@ -1,0 +1,23 @@
+Identifiant : TV1
+
+Titre : Supprimer un enchainement
+
+Contexte :
+-L'auteur a ouvert ou chargé un livre (voir TVX et TVY)
+-Un enchainement 'Ride à SF' a été crée (voir TV Z)
+-Un objet 'Skateboard' a été ajouter comme prérequis à l'enchainement 'Ride à San Francisco' (voir TV XY)
+
+Entrée :
+-Le nom de l'objet prérequis 'Skateboard'
+
+Scénario :
+- L'auteur selectionne le nom de l'objet 'Skateboard' dans la liste des prérequis
+- L'auteur valide la suppression de l'objet 'Skateboard'
+
+
+Résultat :
+- Le système a supprimé l'objet 'Skateboard' à la liste des objets prérequis à l'enchainement 'Ride à San Francisco'
+
+
+Moyen de vérification :
+- Visuel, l'objet 'Skateboard' n'appartient plus à la liste des prérequis de l'enchainement 'Ride à San Francisco'

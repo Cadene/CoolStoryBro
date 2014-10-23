@@ -1,0 +1,36 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas :  Supprimer un objet
+
+Description :  L'auteur supprime un objet.
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypothèses :
+- aucune
+
+Pré-conditions : 
+- Un livre est en cours de modification
+
+Scénario Nominal:
+1. L'auteur sélectionne l'objet à supprimer
+2. Le système vérifie que l'objet existe
+3. Le système supprime l'objet à la liste d'objets
+
+Post-conditions :
+- L'objet est supprimé de la liste d'objet.
+
+Exigences non-fonctionnelles:
+-Aucune
+
+Alternatives: 
+
+Exceptions :
+- SE1: Début SN1: l'auteur annule, fin du cas

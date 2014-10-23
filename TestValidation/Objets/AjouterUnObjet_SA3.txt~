@@ -1,0 +1,23 @@
+Test de validation
+
+Identifiant : SA3
+
+Titre : Ajouter un objet de nom incorrect
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+
+Entrée :
+- Nom de l'objet (vide) ''
+
+Scénario :
+- L'auteur saisie comme nom de l'objet à ajouter ''.
+- L'auteur clique sur le bouton 'Valider'.
+- L'auteur visualise le message "Le nom est incorrect".
+- L'auteur clique sur le bouton 'Quitter'.
+
+Résultat :
+- Le système n'a pas ajouté l'objet.
+
+Moyen de vérification :
+- L'auteur visualise une liste d'objets inchangée.

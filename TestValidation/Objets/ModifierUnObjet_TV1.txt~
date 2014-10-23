@@ -1,0 +1,25 @@
+Test de validation
+
+Identifiant : TV1
+
+Titre : Modifier un objet SN1
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+- Il existe au moins un objet dans la liste d'objets du livre.
+
+Entrée :
+- Nom de l'objet à modifier 'Computer'
+- Nouveau nom de l'objet 'Ordinateur'
+
+Scénario :
+- L'auteur clique sur l'objet à modifier 'Computer'.
+- L'auteur saisie son nouveau nom 'Ordinateur'.
+- L'auteur clique sur le bouton 'Valider'.
+- L'auteur clique sur le bouton 'Quitter'.
+
+Résultat :
+- Le système modifier le nom de l'objet 'Computer' en 'Ordinateur'.
+
+Moyen de vérification :
+- L'auteur visualise l'objet 'Ordinateur' dans la liste des objets du livre, tandis que l'objet 'Computer' a disparu.

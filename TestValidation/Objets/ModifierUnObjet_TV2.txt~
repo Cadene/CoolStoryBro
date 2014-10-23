@@ -1,0 +1,24 @@
+Test de validation
+
+Identifiant : SA1
+
+Titre : Modifier un objet, le nom existe déjà SA1
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+- Il existe au moins un objet dans la liste d'objets du livre.
+
+Entrée :
+- Nom de l'objet à modifier 'Computer'
+- Nouveau nom de l'objet 'Ordinateur'
+
+Scénario :
+- L'auteur clique sur l'objet à modifier 'Computer'.
+- L'auteur saisie son nouveau nom 'Ordinateur'.
+- L'auteur clique sur le bouton 'Valider'.
+
+Résultat :
+- Le système ne modifie pas l'objet
+
+Moyen de vérification :
+- L'auteur visualise aucune modification dans la liste des objets

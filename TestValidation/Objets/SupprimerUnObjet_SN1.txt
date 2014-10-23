@@ -1,0 +1,22 @@
+Test de validation
+
+Identifiant : SN1
+
+Titre : Supprimer un objet SN1
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+- Il existe au moins un objet dans la liste d'objets du livre.
+
+Entrée :
+- Nom de l'objet à supprimer 'Computer'
+
+Scénario :
+- L'auteur clique sur le bouton 'Supprimer' de l'objet 'Computer'.
+- L'auteur clique sur le bouton 'Valider'.
+
+Résultat :
+- Le système supprime l'objet 'Computer'.
+
+Moyen de vérification :
+- L'auteur visualise une liste d'objets privée de 'Computer'.

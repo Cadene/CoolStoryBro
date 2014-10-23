@@ -13,19 +13,19 @@ Acteurs :
 
 Séquencement
 
-Hypohtèses :
+Hypothèses :
 - aucune
 
 Pré-conditions : 
 - aucune
 
 Scénario Nominal:
-1. L'auteur saisie le nom du livre
+1. L'auteur saisit le nom du livre
 2. Le systeme vérifie qu'un livre existant ne porte pas le même nom
 3. Le systeme enregistre un nouveau livre portant ce nom
 
 Post-conditions :
-- Un livre portant le nom défini par l'auteur existe dans la liste des livres
+- Un livre portant le nom défini par l'auteur est affiché à l'écran
 
 Exigences non-fonctionnelles :
 - aucune

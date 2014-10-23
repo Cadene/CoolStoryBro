@@ -1,0 +1,22 @@
+Test de validation
+
+Identifiant : SN1
+
+Titre : sauvegarder livre courant
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+
+
+Entrée :
+
+
+Scénario :
+- L'auteur clique sur le bouton de sauvegarde.
+
+
+Résultat :
+- le systeme écrase le fichier du livre dans son repertoire courant.
+
+Moyen de vérification :
+- L'auteur visualise le fichier du livre sans * (cf gedit mod).

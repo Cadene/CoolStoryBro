@@ -1,0 +1,21 @@
+Test de validation
+
+Identifiant : SE1
+
+Titre : Annulation de l'ajout d'une section 
+
+Contexte: 
+-Le livre est en cour de modification
+
+Entrée:
+-Nom de la section : "Metro"
+
+Scénario:
+-L'auteur saisie le nom de la section : 'Metro' .
+- L'auteur clique sur le bouton 'Annuler'.
+
+Résultat :
+-Le système n'a pas ajouté de section à la liste de section
+
+Moyen de retour :
+-l'auteur visualise la liste de section inchangée.

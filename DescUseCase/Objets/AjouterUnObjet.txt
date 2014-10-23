@@ -21,10 +21,11 @@ Pré-conditions :
 
 Scénario Nominal:
 1. L'auteur saisie le nom de l'objet à ajouter
-2. Le système vérifie que l'objet n'existe pas encore
-3. Le système ajoute l'objet à la liste d'objets
-4. Le système propose à l'auteur d'ajouter un autre objet
-5. L'auteur choisit de finir
+2. Le système vérifie la saisie
+3. Le système vérifie que l'objet n'existe pas encore
+4. Le système ajoute l'objet à la liste d'objets
+5. Le système propose à l'auteur d'ajouter un autre objet
+6. L'auteur choisit de finir
 
 Post-conditions :
 - L'objet crée est ajouté à la liste d'objet.
@@ -33,11 +34,12 @@ Exigences non-fonctionnelles:
 -Aucune
 
 Alternatives: 
-- SN2: Un objet de ce nom existe déjà : Retour en SN1
-- SN5: L'auteur choisit d'ajouter un autre objet: Retour en SN1
+- SA1: Depuis SN3: Un objet de ce nom existe déjà : Retour en SN1
+- SA2: Depuis SN6: L'auteur choisit d'ajouter un autre objet: Retour en SN1
+- SA3: Depuis SN2: La saisie est incorrecte, retour en SN1 
 
 Exceptions :
-- SN1-3 : l'auteur annule la saisie, fin du cas
+- SE1: Depuis SN1: L'auteur annule la saisie, fin du cas
 
 
 

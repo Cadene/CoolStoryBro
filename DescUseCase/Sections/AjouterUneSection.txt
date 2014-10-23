@@ -32,9 +32,9 @@ Exigences non-fonctionnelles :
 -
 
 Alternatives :
-- SN2 : le nom de la section existe déjà, retour à SN1
+- SA1 à partir de SN2 : le nom de la section existe déjà, retour à SN1
 
 Exceptions :
-- SN1 : l'auteur annule la saisie, fin du cas
+- SE1 à partir de SN1 : l'auteur annule la saisie, fin du cas
 
 
