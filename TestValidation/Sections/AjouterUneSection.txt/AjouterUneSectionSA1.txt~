@@ -1,0 +1,24 @@
+Test de validation
+
+Identifiant : TV1
+
+Titre : Ajouter Une Section qui existe déjà 
+
+Contexte: 
+- Le livre est en cour de modification
+- Une Section 'Métro' existe déjà
+
+Entrée:
+-Nom de la section : 'Métro'
+
+Scénario:
+- L'auteur saisie le nom de la section : 'Metro' .
+- L'auteur clique sur le bouton 'Valider' .
+- L'auteur visualise le message "Cet section existe déjà".
+- L'auteur clique sur le bouton 'Continuer'
+
+Résultat :
+-Le système n'a pas ajouté la section à la liste de section
+
+Moyen de retour :
+-l'auteur visualise la liste de section inchangée.

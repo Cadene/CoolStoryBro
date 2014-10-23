@@ -3,9 +3,9 @@ Description du cas
 
 Identificateur
 
-Nom du cas :  Ajouter un prérequis
+Nom du cas :  Ajouter un prérequis 
 
-Description :  Ajouter un prérequis
+Description :  Ajouter un prérequis à l'enchainement
 
 Acteurs : 
 - Auteur

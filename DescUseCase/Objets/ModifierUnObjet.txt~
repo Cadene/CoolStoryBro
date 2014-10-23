@@ -1,0 +1,42 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas : Modifier un objet
+
+Description :  L'auteur modifie un objet existant
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypohtèses :
+- Aucune
+
+Pré-conditions : 
+- Il existe au moins un objet
+
+Scénario Nominal:
+1. L'auteur selectionne un objet qu'il souhaite modifier
+2. L'auteur saisie le nouveau contenu de l'attribut
+3. Le systeme vérifie la saisie
+4. Le systeme vérifie qu'un autre objet n'a pas déjà le meme nom.
+5. Le systeme enregistre les modifications
+ 
+
+Post-conditions :
+- Un objet avec les nouveaux attributs est enregistré à la place de l'ancien
+
+Exigences non-fonctionnelles :
+- aucune
+
+Alternatives :
+- SA1: Depuis SN3: La saisie est incorrecte, retour en SN2
+- SA1: Depuis SN4: Un objet de ce nom existe déjà : Retour en SN2
+
+Exceptions :
+- SE1: SN1à2 : L'auteur annule la modification  
+

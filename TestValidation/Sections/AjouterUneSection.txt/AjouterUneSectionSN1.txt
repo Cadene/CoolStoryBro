@@ -1,0 +1,22 @@
+Test de validation
+
+Identifiant : SN1
+
+Titre : Ajouter Une Section 
+
+Contexte: 
+- Le livre est en cour de modification
+
+Entrée:
+-Nom de la section : 'Métro'
+
+Scénario:
+- L'auteur saisie le nom de la section : 'Metro' .
+- L'auteur clique sur le bouton 'Valider' .
+
+
+Résultat :
+-Le système n'a pas ajouté la section à la liste de section
+
+Moyen de retour :
+-l'auteur visualise la liste de section avec la section "Metro" dedans.

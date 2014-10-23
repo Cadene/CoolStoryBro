@@ -1,0 +1,24 @@
+Test de validation
+
+Identifiant : SE2
+
+Titre : Annulation de modification d'une section 
+
+Contexte: 
+-Le livre est en cour de modification
+- Il existe au moins une section dans la liste des sections.
+
+
+Entrée:
+-Nom de la section : "Metro"
+
+Scénario:
+- L'auteur selectionne une séquence qu'il souhaite modifier 'Metro'.
+- L'auteur saisie son nouveau nom 'Metro ligne 1'.
+- L'auteur clique sur le bouton 'Annulé'.
+
+Résultat :
+-Le système n'a pas modification à la liste de section.
+
+Moyen de retour :
+-l'auteur visualise la liste de section inchangée.

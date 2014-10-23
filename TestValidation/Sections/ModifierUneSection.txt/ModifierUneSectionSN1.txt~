@@ -1,0 +1,24 @@
+Test de validation
+
+Identifiant : SN1
+
+Titre : Modifier un Section 
+
+Contexte :
+- L'auteur a chargé un livre
+- Il existe au moins une section dans la liste des sections.
+
+Entrée :
+- Nom de la section à modifier 'Metro'
+- Nouveau nom de la section 'Metro ligne 1'
+
+Scénario :
+- L'auteur selectionne une séquence qu'il souhaite modifier 'Metro'.
+- L'auteur saisie son nouveau nom 'Metro ligne 1'.
+- L'auteur clique sur le bouton 'Valider'.
+
+Résultat :
+- Le système modifier le nom de la section 'metro' en 'metro ligne 1'.
+
+Moyen de vérification :
+- L'auteur visualise la section 'metro ligne 1' dans la liste des sections du livre, tandis que la section 'Metro' a disparu.

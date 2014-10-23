@@ -1,0 +1,21 @@
+Test de validation
+
+Identifiant : TV1
+
+Titre : Creer un nouveau livre SN1
+
+Contexte :
+- Un livre Harry_Potter.liv3 existe sur le système.
+
+Entrée :
+- chemin du livre '/users/CoolStoryBro/Harry_Potter.liv3'.
+
+Scénario :
+- L'auteur saisit le chemin d'accès vers le livre.
+- L'auteur valide.
+
+Résultat :
+- Le système affiche le livre chargé "Harry_Potter" à l'écran.
+
+Moyen de vérification :
+- L'auteur visualise le livre "Harry_Potter" sur son écran

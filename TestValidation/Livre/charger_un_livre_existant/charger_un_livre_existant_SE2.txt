@@ -1,0 +1,21 @@
+Test de validation
+
+Identifiant : TV1
+
+Titre : Charger un livre existant SE2
+
+Contexte :
+- Un fichier Harry_Potter existe sur le système.
+
+Entrée :
+- chemin du livre '/users/CoolStoryBro/Harry_Potter'.
+
+Scénario :
+- L'auteur saisit le chemin d'accès vers le livre.
+- L'auteur valide.
+
+Résultat :
+- Le système affiche un message d'erreur à l'écran disant que le format n'est pas reconnu.
+
+Moyen de vérification :
+- L'auteur ne visualise aucun livre sur l'écran.

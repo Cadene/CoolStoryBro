@@ -1,0 +1,24 @@
+Test de validation
+
+Identifiant : SA1
+
+Titre : Ajouter un objet qui existe déjà
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+- Un objet 'Ordinateur' existe déjà.
+
+Entrée :
+- Nom de l'objet 'Ordinateur'
+
+Scénario :
+- L'auteur saisie comme nom de l'objet à ajouter 'Ordinateur'.
+- L'auteur clique sur le bouton 'Valider'.
+- L'auteur visualise le message "Cet objet existe déjà".
+- L'auteur clique sur le bouton 'Continuer'. 
+
+Résultat :
+- Le système n'a pas ajouté l'objet.
+
+Moyen de vérification :
+- L'auteur visualise une liste d'objets inchangée.

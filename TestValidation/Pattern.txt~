@@ -1,0 +1,24 @@
+Test de validation
+
+Identifiant : TV1
+
+Titre : Enregistrer un emprunt SN1
+
+Contexte :
+- Bibliothécaire est logué sur le systeme.
+
+Entrée :
+- Identifiant utilisateur '123'.
+- Identifiant exemplaire '45'.
+
+Scénario :
+- Le bibliothécaire qui saisie l'identifiant d'utilisateur '123'.
+- Le bibliothécaire rentre l'identifiant l'exemplaire '45'.
+- Le bibliothécaire confirme l'enregistrement.
+
+Résultat :
+- Le système affiche la confirmation : "IdUser 123, IdLivre 45".
+- Le système modifie l'état de l'exemplaire de 'disponible' à 'emprunté'.
+
+Moyen de vérification :
+- Le bibliothécaire visualise l'iddentifiant '45' parmi la liste des exemplaires empruntés par l'utilisateur '123'.

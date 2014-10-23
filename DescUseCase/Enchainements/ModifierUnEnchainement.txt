@@ -22,7 +22,7 @@ Pré-conditions :
 Scénario Nominal:
 1. L'auteur selectionne un enchainement qu'il souhaite modifier
 2. Le systeme affiche cet enchainement
-3. L'auteur saisie le nouveau contenu de l'attribut
+3. L'auteur saisie le nouveau contenu de le nom
 4. Le systeme vérifie la saisie
 5. Le systeme enregistre les modifications
  

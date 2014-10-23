@@ -1,0 +1,26 @@
+Test de validation
+
+Identifiant : SA2
+
+Titre : Ajouter deux objets
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+
+Entrée :
+- Nom du premier objet 'Ordinateur'
+- Nom du deuxieme objet 'Clavier'
+
+Scénario :
+- L'auteur saisie comme nom de l'objet à ajouter 'Ordinateur'.
+- L'auteur clique sur le bouton 'Valider'.
+- L'auteur clique sur le bouton 'Ajouter un nouvel objet'.
+- L'auteur saisie comme nom de l'objet à ajouter 'Ordinateur'.
+- L'auteur clique sur le bouton 'Valider'.
+- L'auteur clique sur le bouton 'Quitter'.
+
+Résultat :
+- Le système n'a pas ajouté l'objet.
+
+Moyen de vérification :
+- L'auteur visualise une liste d'objets inchangée.

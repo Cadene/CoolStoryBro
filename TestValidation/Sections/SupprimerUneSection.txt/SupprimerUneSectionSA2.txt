@@ -1,0 +1,28 @@
+Test de validation
+
+Identifiant : SN1
+
+Titre : Supprimer une section qui n'existe pas
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+- Il existe au moins une section dans la liste de section du livre.
+
+Entrée :
+- Nom de la section à supprimer 'Metro'
+- Nom de la section à supprimer 'Fete costumé'
+
+Scénario :
+- L'auteur saisie le nom de la section a supprimé : "Metro"
+- L'auteur visualise la proposition de supprimé une autre section
+- L'auteur clique sur choisir de modifié une autre séquence
+- L'auteur saisie le nom de la section a supprimé : "Fete costumé"
+- L'auteur visualise la proposition de supprimé une autre section
+- L'auteur choisit de finir
+
+Résultat :
+- Le système supprime la section 'Metro' et la section 'Fete costumé'.
+
+Moyen de vérification :
+- L'auteur visualise une liste de section privée de 'Metro' et 'Fete costumé'.
+

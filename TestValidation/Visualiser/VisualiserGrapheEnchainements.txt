@@ -1,0 +1,24 @@
+Test de validation
+
+Identifiant : TV1
+
+Titre : Visualiser le graphe des enchainements
+
+Contexte :
+-L'auteur à créer ou charger un livre (voir TVX et TVY). Il a créé au moins un enchainement (voir TVZ).
+
+Entrée :
+- La section autour de laquelle visualiser l'enchainement 'SeqDep'.
+- Le nombre d'enchainements à visualiser autour de 'SeqDep', 'N'.
+
+Scénario :
+- L'auteur sélectionne la section 'SeqDep' impliquée dans les enchainements
+- L'auteur entre le nombre d'enchainements 'N' à visualiser autour de 'SeqDep'
+- L'auteur confirme sa demande.
+
+Résultat :
+- Le système génère le graphe des enchainements.
+- Le système affiche les suites de 'N' enchainements autour de 'SeqDep'
+
+Moyen de vérification :
+- Visuel, l'auteur visualise l'ensemble des enchainements de longueur 'N', par rapport à 'SeqDep'

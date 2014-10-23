@@ -1,0 +1,26 @@
+Test de validation
+
+Identifiant : SA2
+
+Titre : Modifier un objet, saisie incorrect SA2
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+- Il existe au moins un objet dans la liste d'objets du livre.
+
+Entrée :
+- Nom de l'objet à modifier 'Computer'
+- Nouveau nom de l'objet ''
+
+Scénario :
+- L'auteur clique sur l'objet à modifier 'Computer'.
+- L'auteur saisie son nouveau nom ''.
+- L'auteur clique sur le bouton 'Valider'.
+- L'auteur visualise le message "Le nom '' est incorrect".
+- L'auteur clique sur le bouton 'Continuer'. 
+
+Résultat :
+- Le système ne modifie pas l'objet
+
+Moyen de vérification :
+- L'auteur visualise aucune modification dans la liste des objets

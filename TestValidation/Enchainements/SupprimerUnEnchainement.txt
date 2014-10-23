@@ -1,0 +1,22 @@
+Identifiant : TV1
+
+Titre : Supprimer un enchainement
+
+Contexte :
+-L'auteur a ouvert ou chargé un livre (voir TVX et TVY)
+-Un enchainement 'Ride à SF' a été crée (voir TV Z)
+
+Entrée :
+-Le nom de l'enchainement 'Ride à SF'
+
+Scénario :
+- L'auteur selectionne le nom de l'enchainement 'Ride à SF'
+- L'auteur valide la suppression de l'enchainement 'Ride à SF'
+
+
+Résultat :
+- Le système a supprimé l'enchainement 'Ride à SF' dans la liste des enchainements.
+
+
+Moyen de vérification :
+- Visuel, l'enchainement 'Ride à SF' n'appartient plus à la liste des enchainements.

@@ -1,0 +1,22 @@
+Test de validation
+
+Identifiant : SN1
+
+Titre : annulation de la suppression d'une section 1 
+
+Contexte :
+- L'auteur a chargé un livre ou a créé un nouveau livre.
+- Il existe au moins une section dans la liste de section du livre.
+
+Entrée :
+- Nom de la section à supprimer 'Metro'
+
+Scénario :
+- L'auteur saisie le nom de la section a supprimé : "Metro"
+- L'auteur annule
+
+Résultat :
+- Le système ne modifie pas l'objet
+
+Moyen de vérification :
+- L'auteur visualise la liste de section inchangé.

@@ -1,0 +1,46 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas :  Ajouter un objet
+
+Description :  L'auteur ajoute un objet
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypothèses :
+- aucune
+
+Pré-conditions : 
+- Un livre est en cours de modification
+
+Scénario Nominal:
+1. L'auteur saisie le nom de l'objet à ajouter
+2. L'auteur valide
+3. Le système vérifie la saisie
+4. Le système vérifie que l'objet n'existe pas encore
+5. Le système ajoute l'objet à la liste d'objets
+6. Le système propose à l'auteur d'ajouter un autre objet
+7. L'auteur choisit de finir
+
+Post-conditions :
+- L'objet crée est ajouté à la liste d'objet.
+
+Exigences non-fonctionnelles:
+-Aucune
+
+Alternatives: 
+- SA1: Depuis SN4: Un objet de ce nom existe déjà : Retour en SN2
+- SA2: Depuis SN7: L'auteur choisit d'ajouter un autre objet: Retour en SN1
+- SA3: Depuis SN3: La saisie est incorrecte, retour en SN1 
+
+Exceptions :
+- SE1: Depuis SN1: L'auteur annule la saisie, fin du cas
+
+
+

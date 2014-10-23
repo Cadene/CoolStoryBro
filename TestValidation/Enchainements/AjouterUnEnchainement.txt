@@ -1,0 +1,24 @@
+Identifiant : TV1
+
+Titre : Ajouter un enchainement
+
+Contexte :
+-L'auteur a ouvert ou chargé un livre (voir TVX et TVY)
+- Les sections 'Nage à Panam' et 'Ride à SF' ont été créées
+
+Entrée :
+-Le nom de l'enchainement 'Fun Pt 2'
+
+
+Scénario :
+- L'auteur sélectionne les sections 'Nage à Panam' et 'Ride à SF'
+- L'auteur entre le nom de l'enchainement 'Fun Pt 2'
+-L'auteur confirme la création de l'enchainement 'Fun Pt 2'
+
+
+Résultat :
+- Le système a créé un enchainement entre les sections 'Nage à Panam' et 'Ride à SF' de nom 'Fun Pt 2'
+
+
+Moyen de vérification :
+- Visuel, l'enchainement 'Fun Pt 2' appartient à la liste des enchainements

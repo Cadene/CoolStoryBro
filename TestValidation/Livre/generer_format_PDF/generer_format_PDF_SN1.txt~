@@ -1,0 +1,17 @@
+Générer format PDF
+
+Identifiant : TV1
+
+Contexte:L'auteur a crée un livre,il existe au moins un enchainement (donc 2 section) (?)
+ il n'y a plus de section inateignable(?)
+
+entrée: nom/du/chemin
+
+
+Scénario: 
+-l'utilisateur clique sur générer PDF
+
+
+Resultat: Le fichier PDF est créé dans notre repertoire de nom "nom/du/chemin".
+
+Moyen de retour: une page web  (en local??) s'ouvre avec le livre en format web(?)

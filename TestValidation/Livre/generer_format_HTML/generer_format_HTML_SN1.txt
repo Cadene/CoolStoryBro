@@ -1,0 +1,23 @@
+Test de validation
+
+Identifiant : SN1
+
+titre : generer format HTML
+
+Contexte: 
+-L'auteur a crée un livre
+-il existe au moins un enchainement (donc 2 section au moins) 
+
+entrée: 
+-nom/du/chemin
+
+Scénario: 
+-l'utilisateur précise l'emplacement du fichier
+-l'utilisateur valide
+
+Resultat: 
+-Le systeme a crée le fichier .html dans le répertoire choisis
+
+Moyen de retour: 
+-l'auteur vérifie si au niveau du chemins d'accés du dossier, il n'y a pas de
+fichier du nom du livre en .html .

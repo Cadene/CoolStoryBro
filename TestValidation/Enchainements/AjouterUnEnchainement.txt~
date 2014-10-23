@@ -1,0 +1,24 @@
+Identifiant : TV1
+
+Titre : Ajouter un objet à la liste des objets
+
+Contexte :
+-L'auteur a ouvert ou chargé un livre (voir TVX et TVY)
+-Un enchainement 'Ride à SF' a été crée (voir TV Z)
+-Un objet 'Skateboard' a été crée (voir TV XY)
+
+Entrée :
+-Le nom de l'enchainement 'Ride à San Francisco
+-Le nom de l'objet prérequis 'Skateboard'
+
+Scénario :
+- L'auteur sélectionne l'enchainement 'Ride à San Francisco' dans la liste des enchainements
+- L'auteur sélectionne l'objet 'Skateboard' comme prérequis
+- 
+
+Résultat :
+- Le système a ajouter l'objet 'Skateboard' à la liste des objets prérequis à l'enchainement 'Ride à San Francisco'
+
+
+Moyen de vérification :
+- Visuel, l'objet 'Skateboard' appartient à la liste des prérequis de l'enchainement 'Ride à San Francisco'

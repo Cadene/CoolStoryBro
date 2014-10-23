@@ -1,0 +1,26 @@
+Test de validation
+
+Identifiant : SN1
+
+Titre : Modifier un Section dont le nom existe déjà
+
+Contexte :
+- L'auteur a chargé un livre
+- Il existe au moins une section dans la liste des sections.
+
+Entrée :
+- Nom de la section à modifier 'Metro'
+- Nouveau nom de la section 'Metro ligne 1'
+
+Scénario :
+- L'auteur selectionne une séquence qu'il souhaite modifier 'Metro'.
+- L'auteur saisie son nouveau nom 'Metro ligne 1'.
+- L'auteur clique sur le bouton 'Valider'.
+- L'auteur visualise le message "la section 'Metro ligne 1' existe déjà"
+- L'auteur clique sur le bouton 'Continuer' . 
+
+Résultat :
+- Le système ne modifie pas la liste de sections.
+
+Moyen de vérification :
+- L'auteur visualise aucune modification dans la liste des sections du livre.

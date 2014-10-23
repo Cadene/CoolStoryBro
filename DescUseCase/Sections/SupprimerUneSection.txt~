@@ -1,0 +1,40 @@
+Description du cas
+
+
+Identificateur
+
+Nom du cas :  Supprimer une section
+
+Description :  L'auteur supprime une section.
+
+Acteurs : 
+- Auteur
+
+
+Séquencement
+
+Hypothèses :
+- aucune
+
+Pré-conditions : 
+- Un livre est en cours de modification
+
+Scénario Nominal:
+1. L'auteur saisie le nom de la section à supprimer
+2. Le système vérifie que la section existe
+3. Le système supprime la section
+4. Le système propose à l'auteur de supprimer une autre section
+5. L'auteur choisit de finir
+
+Post-conditions :
+- La section est supprimé de l'ensemble des sections
+
+Exigences non-fonctionnelles:
+-Aucune
+
+Alternatives: 
+- SN2: Aucune section de ce nom n'existe : Retour en SN1
+- SN5: L'auteur choisit de supprimer  une autre section : Retour en SN1
+
+Exceptions :
+- SN1-3 : l'auteur annule la saisie, fin du cas

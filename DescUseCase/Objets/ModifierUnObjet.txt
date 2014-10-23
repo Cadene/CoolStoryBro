@@ -14,16 +14,16 @@ Acteurs :
 Séquencement
 
 Hypohtèses :
-- aucune
+- Aucune
 
 Pré-conditions : 
-- aucune
+- Il existe au moins un objet
 
 Scénario Nominal:
 1. L'auteur selectionne un objet qu'il souhaite modifier
-2. Le systeme affiche cet objet
-3. L'auteur saisie le nouveau contenu de l'attribut
-4. Le systeme vérifie la saisie
+2. L'auteur saisie le nouveau contenu de l'attribut
+3. Le systeme vérifie la saisie
+4. Le systeme vérifie qu'un autre objet n'a pas déjà le meme nom.
 5. Le systeme enregistre les modifications
  
 
@@ -34,8 +34,9 @@ Exigences non-fonctionnelles :
 - aucune
 
 Alternatives :
-- SN4 : La saisie est incorrecte, retour en SN3 
+- SA1: Depuis SN3: La saisie est incorrecte, retour en SN2
+- SA2: Depuis SN4: Un objet de ce nom existe déjà : Retour en SN2
 
 Exceptions :
-- SN1-3 : L'auteur annule la modification  
+- SE1: SN1à2 : L'auteur annule la modification  
 

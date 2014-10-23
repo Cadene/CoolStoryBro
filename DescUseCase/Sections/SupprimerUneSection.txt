@@ -37,4 +37,4 @@ Alternatives:
 - SN5: L'auteur choisit de supprimer  une autre section : Retour en SN1
 
 Exceptions :
-- SN1-3 : l'auteur annule la saisie, fin du cas
+- SN1: l'auteur annule la saisie, fin du cas

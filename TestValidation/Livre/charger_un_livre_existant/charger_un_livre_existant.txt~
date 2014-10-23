@@ -1,0 +1,21 @@
+Test de validation
+
+Identifiant : TV1
+
+Titre : Enregistrer un emprunt SN1
+
+Contexte :
+- Un livre existe sur le système
+
+Entrée :
+- chemin du livre '/users/EtuStar/CoolStoryBro/Documents/Livres/Harry_Potter.txt'.
+
+Scénario :
+- L'auteur saisit le chemin d'accès vers le livre.
+- L'auteur valide.
+
+Résultat :
+- Le système affiche le livre chargé à l'écran.
+
+Moyen de vérification :
+- L'auteur visualise le livre "Harry_Potter" sur son écran
